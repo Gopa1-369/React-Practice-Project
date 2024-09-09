@@ -1,0 +1,100 @@
+
+
+nav{
+  display: flex;
+justify-content: space-around;
+height:71px;
+margin-bottom:auto;
+width:1440px
+
+
+}
+
+
+.list{
+  display: flex;
+  list-style-type: none;
+  gap:24px;
+  cursor: pointer;
+}
+
+.list li:hover {
+  text-shadow: 2px 2px grey; 
+ /* Background color on hover */
+}
+
+.button{
+  height:31px;
+  width: 75px;
+  background-color: brown;
+  color: white;
+}
+
+.hero{
+  display: flex;
+ 
+  align-items: center;
+  height:618px;
+margin-left: 130px;
+margin: 0 auto;
+max-width: 1280px;
+
+}
+
+
+
+.hero-content h1{
+  font-size: 108px;
+  line-height: 102px;
+  font-weight: 800;
+  margin-bottom:36px;
+}
+
+.hero-content p{
+  font-weight:600 ;
+  color:gray;
+  max-width:400px;
+  margin-bottom:36px;
+
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+  margin-bottom:36px;
+ 
+}
+
+.hero-btn button {
+  font-size: 24px;
+  padding: 5px 15px;
+  border-radius: 7px;
+  
+ 
+  
+}
+
+
+.first-btn{
+background-color: red;
+color: white;
+border: none;
+
+}
+
+.secondary-btn {
+  background: transparent;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.shopping p {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
