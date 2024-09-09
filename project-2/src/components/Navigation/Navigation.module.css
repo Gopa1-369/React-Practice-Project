@@ -1,0 +1,23 @@
+.navigation{
+   
+    height:72px;
+display: flex;
+justify-content: space-between;
+padding: 0 100px;
+align-items: center;
+position: fixed; /* Fixed at top */
+  top: 0;
+  left: 0;
+  right: 0;
+ 
+
+  
+}
+
+.navigation ul{
+list-style-type: none;
+display: flex;
+gap:24px;
+
+font-weight:500;
+}
